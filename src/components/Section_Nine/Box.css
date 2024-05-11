@@ -1,0 +1,26 @@
+.box {
+	width: 600px;
+	height: 300px;
+	border-radius: 20px;
+	color: #eaffff;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	text-align: center;
+	background: rgb(17, 12, 41);
+	background: linear-gradient(
+		144deg,
+		rgba(17, 12, 41, 0.1) 0%,
+		rgba(60, 37, 116, 1) 100%
+	);
+}
+
+.box h2 {
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.box p {
+	font-size: 16px;
+}

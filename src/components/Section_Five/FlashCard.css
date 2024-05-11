@@ -1,0 +1,44 @@
+.flash-card {
+	width: 400px;
+	height: 550px;
+	background-image: linear-gradient(143.97deg, #271e55, #100b28);
+	border: 1px solid rgba(170, 125, 252, 0.25);
+	color: rgba(255, 255, 255, 0.8);
+	padding: 30px;
+	border-radius: 20px;
+	display: flex;
+	gap: 20px;
+	flex-direction: column;
+	transition: 0.3s ease-in-out;
+	align-items: center;
+}
+
+.flash-card div {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.flash-card:hover {
+	box-shadow: 0 0 15px #6f58da;
+	transform: translateY(-20px);
+}
+
+.flash-card h3 {
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.flash-card p {
+	font-size: 1rem;
+}
+
+.flash-card .image {
+	display: flex;
+	justify-content: center;
+}
+
+.flash-card .image img {
+	width: 280px;
+	height: 280px;
+}

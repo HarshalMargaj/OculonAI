@@ -1,0 +1,32 @@
+.num-card {
+	display: flex;
+	background: rgb(39, 30, 85);
+	background: linear-gradient(
+		90deg,
+		rgba(39, 30, 85, 1) 0%,
+		rgba(16, 11, 40, 1) 32%
+	);
+	width: 400px;
+	align-items: center;
+	gap: 20px;
+	padding: 20px;
+	border: 1px solid rgba(170, 125, 252, 0.25);
+	border-radius: 10px;
+}
+
+.num-card .first {
+	font-size: 48px;
+	color: white;
+}
+
+.num-card .mid {
+	height: 50px;
+	background-color: blueviolet;
+	width: 3px;
+}
+
+.num-card .second {
+	font-size: 18px;
+	color: white;
+	color: #ece6fec7;
+}
