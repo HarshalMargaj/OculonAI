@@ -5,7 +5,7 @@ const Integration = props => {
 	return (
 		<div>
 			<div className="integration">
-				<img src={`/src/assets/${props.image}`} alt="" />
+				<img src={`/Images/${props.image}`} alt="" />
 			</div>
 		</div>
 	);
